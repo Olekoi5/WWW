@@ -1,0 +1,31 @@
+.col {
+  background-color: red;
+  text-align: center;
+}
+.col-4 {
+  text-align: center;
+}
+.card-header {
+  background-color: #000080;
+  color: silver;
+}
+.card-footer {
+  background-color: silver;
+}
+.card {
+  text-align: center;
+}
+.onas {
+  background-color: #000080;
+  color: white;
+}
+.col-2 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.col-8 {
+  text-align: center;
+  background-color: #000080;
+  color: white; 
+}
