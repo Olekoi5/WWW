@@ -1,0 +1,144 @@
+html {
+    margin: 0;
+    padding: 0;
+    border-right: 0;
+}
+
+@keyframes logo {
+   from {
+       transform: scale(0.5);
+       left: 120%;
+   }
+   to {
+      transform: scale(1);
+      left:0;
+    }
+   }
+header {
+  animation: logo 1s
+}
+body {
+  background-color: aquamarine;
+}
+.Strona {
+    width: 80%;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 10px -11px 14px #414680;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-family: Algerian, "Times New Roman", Times, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    background-color: azure;
+    margin: 0 -15px 0 -15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.25em;
+  color: black;
+  text-transform: uppercase;
+  font-family: Algerian, "Times New Roman", Times, sans-serif;
+  box-shadow: -1px -11px 11px #1fdece;
+  background-color: #ff3333;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1em;
+  color: black;
+  font-family: Algerian, "Times New Roman", Times, sans-serif;
+  background-color: #cccc00;
+}
+.cena {
+  background-color: yellow;
+  color: red;
+}
+
+.menu {
+  border: 2.5px solid #4C934B;
+  float: left;
+  width:20%;
+  background:#ff611b;
+  padding: 0.5%;
+  text-align: center;
+}
+li {
+  border: 2.5px solid #000099;
+  background: #99ff66;
+  font-family: Algerian, "Times New Roman", Times, sans-serif;
+  text-align: left;
+}
+.onas {
+  border: 2.5px solid #FF4E28;
+  float: right;
+  width:20%;
+  background:#ff611b;
+  padding: 0.5%;
+  text-align: center;
+}
+.oferta {
+  margin-left: 21.3%;
+  float: none;
+  width:56.3%;
+  background:#000099;
+  padding: 0.5%;
+  text-align: center;
+}
+.produkt {
+  width:100%;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.Wyszukaj {
+  float: none;
+  margin-left: 21.3%;
+  width:78%;
+  background:#000099;
+  padding: 0.5%;
+  text-align: center;
+}
+.Parametry {
+  font-family: "Trebuchet MS",Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 80%;
+}
+.Parametry caption {
+  text-align: center;
+  font-size: 1.85em;
+  margin-bottom: 10px;
+}
+.Parametry td, .Parametry th {
+  font-size: 1.1em;
+  border: 1px solid red;
+  padding: 3px 7px 2px 7px;
+}
+
+fieldset {margin-bottom: 15px; padding: 10px;}
+label { width: 150px; display: inline-block; vertical-align: top; margin: 6px;}
+
+.Loguj {
+  float: none;
+  margin-left: 21.3%;
+  width:78%;
+  background:#000099;
+  padding: 0.5%;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: red;
+}
+h5 {
+  background-color: yellow;
+}

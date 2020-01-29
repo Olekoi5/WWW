@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<link rel="stylesheet" href="Styl.css">
+<script src="walidacja.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <title>Sklep Internetowy</title>
+  </head>
+  <body>
+    <main class="Strona">
+      <header>
+        <img src="internet.jpg" width="100%" height="200">
+      </header>
+      <h1>Sklep Internetowy</h1>
+      <nav class="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="wyszukaj.html">Wyszukaj</a></li>
+          <li><a href="index.html">Promocje</a></li>
+          <li><a href="Log.html">Zaloguj się</a></li>
+          <li><a href="UtworzKonto.html">Załóż konto</a></li>
+        </ul>
+      </nav>
+      <article class="konto">
+        <h2>Zamów!</h2>
+        <form action="#" method="get">
+        <fieldset name="zamow">
+          <label>Ilość</label><input type="text" name="f_ilosc" /><br/>
+          <label>Imię</label><input type="text" name="f_name" /><br/>
+          <label>Nazwisko</label><input type="text" name="f_surname" /><br/>
+          <label>Ulica</label><input type="text" name="f_street" /><br/>
+          <label>Numer domu</label><input type="text" name="f_nrD" /><br/>
+          <label>Numer mieszkania</label><input type="text" name="f_nrM" /><br/>
+          <label>Kod pocztowy</label><input type="text" name="f_code" /><br/>
+          <label>Miejscowość</label><input type="text" name="f_town" /><br/>
+          <input type="submit" name="submit" value="Zamów!" onclick="return validateOrder(this.form);">
+        </fieldset>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+<link rel="stylesheet" href="Styl.css">
+<script src="walidacja.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <title>Sklep Internetowy</title>
+  </head>
+  <body>
+    <main class="Strona">
+      <header>
+        <img src="internet.jpg" width="100%" height="200">
+      </header>
+      <h1>Sklep Internetowy</h1>
+      <nav class="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="wyszukaj.html">Wyszukaj</a></li>
+          <li><a href="index.html">Promocje</a></li>
+          <li><a href="Log.html">Zaloguj się</a></li>
+          <li><a href="UtworzKonto.html">Załóż konto</a></li>
+        </ul>
+      </nav>
+      <article class="Wyszukaj">
+        <h2>Wyszukaj</h2>
+        <form action="#" method="get">
+        <fieldset name="Podajfraze">
+          <label>Podaj frazę</label><input type="text" name="f_fraza" />
+          <input type="submit" name="submit" value="Szukaj" onclick="return validateSearch(this.form);">
+        </fieldset>
+      </article>
+    </main>
+  </body>
+</html>
